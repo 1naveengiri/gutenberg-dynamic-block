@@ -1,0 +1,15 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-gutenberg-dynamic-block {
+	/* border: 1px dotted #f00;*/
+	textarea{
+		background-color: #21759b;
+		border: none;
+		font-size: 2.1rem;
+		color: #fff;
+	}
+} 

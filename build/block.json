@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "create-block/gutenberg-dynamic-block",
+  "version": "0.1.0",
+  "title": "Gutenberg Dynamic Block",
+  "category": "widgets",
+  "icon": "dashicons dashicons-welcome-write-blog",
+  "description": "Gutenberg dynamic block Example.",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "selector": "p",
+      "source": "text"
+    }
+  },
+  "textdomain": "gutenberg-dynamic-block",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
